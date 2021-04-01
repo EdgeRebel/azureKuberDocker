@@ -13,8 +13,8 @@ spec:
         app: CustomerManagementProject
     spec:
       containers:
-      - name: dockerKuberREG
-        image: dockerkuberreg.azurecr.io/dockerKuberREG:latest
+      - name: dockerkuberreg
+        image: dockerkuberreg.azurecr.io/dockerkuberreg:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
