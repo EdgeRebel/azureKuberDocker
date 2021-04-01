@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: dockerKuberREG
-        image: dockerkuberreg.azurecr.io/dockersamplerepos:latest
+        image: dockerkuberreg.azurecr.io/dockerKuberREG:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
